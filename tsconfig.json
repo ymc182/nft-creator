@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"lib": ["DOM", "ESNext"],
+		"importHelpers": true,
+		"declaration": true,
+		"sourceMap": true,
+		"rootDir": "./src",
+		"outDir": "./dist/esm",
+		"strict": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution": "node",
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*", "src/test/**/***/*"],
+	"exclude": ["node_modules", "**/*.spec.ts", "dist"]
+}
